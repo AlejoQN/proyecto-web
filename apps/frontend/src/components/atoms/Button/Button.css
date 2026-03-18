@@ -19,7 +19,7 @@
 
 .button--primary {
   background: rgb(207, 0, 207);
-  color: var(--color-text-inverse);
+  color: cyan;
   box-shadow: 0 15px 30px rgba(195, 82, 43, 0.22);
 }
 
