@@ -18,9 +18,9 @@
 }
 
 .button--primary {
-  background: red;
+  background: rgb(207, 0, 207);
   color: var(--color-text-inverse);
-  box-shadow: 0 16px 30px rgba(195, 82, 43, 0.22);
+  box-shadow: 0 15px 30px rgba(195, 82, 43, 0.22);
 }
 
 .button--secondary {
