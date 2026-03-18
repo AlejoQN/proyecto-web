@@ -1,0 +1,27 @@
+.section-title {
+  display: grid;
+  gap: 0.8rem;
+  max-width: 42rem;
+}
+
+.section-title h2 {
+  margin: 0;
+  font-size: clamp(2rem, 4vw, 3.5rem);
+  line-height: 0.95;
+  letter-spacing: -0.05em;
+}
+
+.section-title__eyebrow {
+  margin: 0;
+  color: var(--color-primary);
+  font-size: 0.85rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.section-title__description {
+  margin: 0;
+  color: var(--color-text-muted);
+  max-width: 36rem;
+}

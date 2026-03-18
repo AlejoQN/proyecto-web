@@ -1,0 +1,17 @@
+.workflow-section {
+  display: grid;
+  gap: 2rem;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.workflow-section__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 860px) {
+  .workflow-section {
+    padding: 3rem 2rem 5rem;
+  }
+}

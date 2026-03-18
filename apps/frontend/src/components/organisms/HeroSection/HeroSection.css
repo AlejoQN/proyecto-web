@@ -1,0 +1,44 @@
+.hero-section {
+  display: grid;
+  gap: 2rem;
+  padding: 4rem 1.5rem 2rem;
+}
+
+.hero-section__content {
+  display: grid;
+  gap: 1.2rem;
+  max-width: 52rem;
+}
+
+.hero-section__content h1 {
+  margin: 0;
+  font-size: clamp(2.8rem, 7vw, 5.8rem);
+  line-height: 0.92;
+  letter-spacing: -0.07em;
+}
+
+.hero-section__content p {
+  margin: 0;
+  max-width: 42rem;
+  color: var(--color-text-muted);
+  font-size: 1.05rem;
+}
+
+.hero-section__actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding-top: 0.6rem;
+}
+
+.hero-section__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1rem;
+}
+
+@media (min-width: 860px) {
+  .hero-section {
+    padding: 5rem 2rem 3rem;
+  }
+}
